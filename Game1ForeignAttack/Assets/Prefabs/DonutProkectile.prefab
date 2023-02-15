@@ -501,6 +501,7 @@ GameObject:
   - component: {fileID: 3283391749937465703}
   - component: {fileID: 3033818782917986267}
   - component: {fileID: 3033818782917986265}
+  - component: {fileID: -2963972896479512563}
   m_Layer: 0
   m_Name: DonutProkectile
   m_TagString: Untagged
@@ -584,9 +585,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!64 &3033818782917986265
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -601,6 +602,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1865056248366311061, guid: cb01e441aa432bf4c961945d6bf213e0, type: 3}
+--- !u!114 &-2963972896479512563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799870944297407453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff02b9653531614b8f46c94ac79983f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 183
 --- !u!1 &3120746219641555948
 GameObject:
   m_ObjectHideFlags: 0
